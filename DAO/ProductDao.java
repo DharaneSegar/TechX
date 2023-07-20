@@ -28,7 +28,7 @@ import Model.product;
 		}
 		
 		public Connection getConnection(){
-			
+
 			Connection con=null;
 			try {
 				con=DriverManager.getConnection(dbUrl, dbUname, dbPassword);
@@ -36,6 +36,7 @@ import Model.product;
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
 			return con;
 		}
 		

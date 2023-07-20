@@ -28,6 +28,7 @@ import Model.product;
 		}
 		
 		public Connection getConnection(){
+			
 			Connection con=null;
 			try {
 				con=DriverManager.getConnection(dbUrl, dbUname, dbPassword);

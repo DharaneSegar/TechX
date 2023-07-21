@@ -7,7 +7,7 @@ public class adminDB {
 	public Connection getCon(){
 	try {
 	Class.forName("com.mysql.jdbc.Driver");
-	con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/techx", "root", "dharane123");
+	con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/techx", "root", "Dharane123");
 	} catch (ClassNotFoundException e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
